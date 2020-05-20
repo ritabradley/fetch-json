@@ -11,11 +11,14 @@ interface Todo {
 axios.get(url).then((res) => {
     const todo = res.data as Todo;
 
-    const ID = todo.id;
+    const id = todo.id;
     const title = todo.title;
-    const finished = todo.completed;
+    const completed = todo.completed;
 
-    const report = `Todo with ID ${ID} has a title of ${title.toUpperCase()}. Is it completed: ${finished}`;
-
-    console.log(report);
+    logReport(id, title, completed);
 });
+
+const logReport = (id: number, title: string, completed: boolean) => {
+    const report = `Todo with ID ${id} has a title of ${title.toUpperCase()}. Is it completed: ${completed}`;
+    console.log(report);
+};
