@@ -1,14 +1,14 @@
 {
-    "name": "fetch-json",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Rita Bradley",
-    "license": "ISC",
-    "dependencies": {
-        "axios": "^0.21.1"
-    }
+  "name": "fetch-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rita Bradley",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
